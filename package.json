@@ -1,5 +1,5 @@
 {
-	"name": "es6-express-template",
+	"name": "express-es6-template",
 	"version": "1.0.0",
 	"description": "A simple ECMAScript Express.js template for Node.",
 	"main": "index.js",
