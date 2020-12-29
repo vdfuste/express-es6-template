@@ -13,12 +13,12 @@ You can create a new project and clone the template inside:
 ````cmd
 $ mkdir my-proyect
 $ cd my-proyect
-$ git clone https://github.com/vdfuste/es6-express-template .
+$ git clone https://github.com/vdfuste/express-es6-template .
 ````
 
 or just clone the project:
 ````cmd
-$ git clone https://github.com/vdfuste/es6-express-template /path/to/save/project
+$ git clone https://github.com/vdfuste/express-es6-template /path/to/save/project
 ````
 
 Add all the information in the package.json file:
