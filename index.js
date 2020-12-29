@@ -1,16 +1,17 @@
-'use strict';
+import express from 'express';
+import dotenv from 'dotenv';
+import { __dirname } from 'typemodule';
+import myRouter from './routers/myRouter.js';
+// import db from './database.js';
 
-require('dotenv').config();
+dotenv.config();
 
-var express = require('express');
-var app = express();
-var myRouter = require('./routers/myRouter.js');
+const app = express();
 
-/* Uncomment to connect the database
+/* Uncomment this and 'import myRouter' to connect the database
 
-var db = require('./database.js');
 db.connect(error => {
-	if(error) throw error;
+	if (error) throw error;
 	console.log('Database connected successfully!');
 });
 

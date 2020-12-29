@@ -1,6 +1,4 @@
-'use strict';
-
-var mysql = require('mysql');
+import mysql from 'mysql';
 
 var database = mysql.createConnection({
 	host: 'localhost',
@@ -10,4 +8,4 @@ var database = mysql.createConnection({
 	database: 'my_database'
 });
 
-module.exports = database;
+export default database;

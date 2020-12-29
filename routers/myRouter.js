@@ -1,7 +1,6 @@
-'use strict';
+import express from 'express';
 
-var express = require('express');
-var router = express.Router();
+const router = express.Router();
 
 router.get('/', (req, res) => {
 	res.send({
@@ -24,4 +23,4 @@ router.use((req, res) => {
 	});
 });
 
-module.exports = router;
+export default router;
