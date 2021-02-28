@@ -9,16 +9,16 @@ This template has:
 - nodemon
 
 ## How to use it
-You can create a new project and download the template inside:
+You can create a new project and clone the template inside:
 ````cmd
 $ mkdir my-proyect
 $ cd my-proyect
-$ git download https://github.com/vdfuste/express-es6-template .
+$ git clone https://github.com/vdfuste/express-es6-template .
 ````
 
-or just download the project:
+or just clone the project:
 ````cmd
-$ git download https://github.com/vdfuste/express-es6-template /path/to/save/project
+$ git clone https://github.com/vdfuste/express-es6-template /path/to/save/project
 ````
 
 Add all the information in the package.json file:
